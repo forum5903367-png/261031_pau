@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>寶成工業(9904) 每日營運追蹤報告 — 2026/10/31</title>
+<style>
+  :root{ --bg:#f8fafc; --card:#ffffff; --ink:#1e293b; --muted:#64748b; --line:#e2e8f0;
+         --up:#16a34a; --upbg:#dcfce7; --down:#dc2626; --downbg:#fee2e2;
+         --unkg:#3b82f6; --unkbg:#dbeafe; --mix:#f59e0b; --mixbg:#fef3c7;
+         --tag:#0ea5e9; }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font-family:-apple-system,BlinkMacSystemFont,"Microsoft JhengHei","PingFang TC","Noto Sans TC",sans-serif;
+       font-size:18px;line-height:1.7;-webkit-text-size-adjust:100%;}
+  .wrap{max-width:760px;margin:0 auto;padding:16px 14px 40px;}
+  header.top{background:linear-gradient(135deg,#1e3a8a,#2563eb);color:#fff;border-radius:16px;
+       padding:20px 18px;margin-bottom:18px;}
+  header.top h1{font-size:22px;margin:0 0 6px;line-height:1.4;}
+  header.top .sub{font-size:15px;opacity:.92;}
+  .meta{font-size:14px;background:rgba(255,255,255,.15);border-radius:10px;padding:8px 12px;margin-top:12px;}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;
+       padding:16px 16px;margin-bottom:16px;box-shadow:0 1px 3px rgba(15,23,42,.06);
+       overflow-x:auto;}
+  .card h2{font-size:19px;margin:0 0 12px;padding-bottom:10px;border-bottom:2px solid var(--line);
+       display:flex;align-items:center;gap:8px;}
+  .card h3{font-size:17px;margin:16px 0 8px;color:#334155;}
+  h2 .num{display:inline-flex;align-items:center;justify-content:center;min-width:28px;height:28px;
+       background:#2563eb;color:#fff;border-radius:8px;font-size:15px;padding:0 6px;flex:0 0 auto;}
+  p{margin:8px 0;}
+  .badge{display:inline-block;padding:3px 10px;border-radius:999px;font-size:14px;font-weight:700;
+       margin:2px 4px 2px 0;white-space:nowrap;vertical-align:middle;}
+  .up{background:var(--upbg);color:var(--up);border:1px solid #bbf7d0;}
+  .down{background:var(--downbg);color:var(--down);border:1px solid #fecaca;}
+  .unk{background:var(--unkbg);color:var(--unkg);border:1px solid #bfdbfe;}
+  .mix{background:var(--mixbg);color:#b45309;border:1px solid #fde68a;}
+  .news{border-left:4px solid #cbd5e1;padding:10px 12px;margin:12px 0;background:#f8fafc;border-radius:0 10px 10px 0;}
+  .news h4{margin:0 0 6px;font-size:16px;}
+  .meta-line{font-size:14px;color:var(--muted);margin:4px 0;}
+  .kv{display:flex;flex-wrap:wrap;gap:6px 14px;margin:6px 0;font-size:15px;}
+  .kv span b{color:#334155;}
+  table{width:100%;border-collapse:collapse;font-size:15px;margin:8px 0;}
+  th,td{border:1px solid var(--line);padding:7px 9px;text-align:left;vertical-align:top;}
+  th{background:#eef2ff;font-weight:700;font-size:14px;white-space:nowrap;}
+  td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;}
+  .pos{color:var(--up);font-weight:700;} .neg{color:var(--down);font-weight:700;}
+  .tag{background:var(--unkbg);color:var(--unkg);border:1px solid #bfdbfe;border-radius:10px;
+       padding:8px 12px;font-size:15px;margin:8px 0;}
+  .box{border-radius:12px;padding:12px 14px;margin:10px 0;font-size:15.5px;}
+  .b-up{background:var(--upbg);border:1px solid #bbf7d0;}
+  .b-down{background:var(--downbg);border:1px solid #fecaca;}
+  .b-unk{background:var(--unkbg);border:1px solid #bfdbfe;}
+  a{color:#1d4ed8;text-decoration:none;word-break:break-all;}
+  a:active{opacity:.7;}
+  ul{margin:8px 0;padding-left:22px;} li{margin:5px 0;}
+  .concl{background:linear-gradient(135deg,#0f172a,#1e3a8a);color:#fff;border-radius:16px;padding:18px;margin-bottom:16px;}
+  .concl h2{color:#fff;border-color:rgba(255,255,255,.25);margin-top:0;}
+  .concl .row{display:flex;gap:10px;margin:8px 0;flex-wrap:wrap;}
+  .concl .k{font-weight:700;min-width:96px;flex:0 0 auto;}
+  .small{font-size:13.5px;color:var(--muted);}
+  .src{font-size:14px;color:var(--muted);margin-top:6px;}
+  .disc{font-size:13.5px;color:#64748b;background:#f1f5f9;border:1px dashed #cbd5e1;
+       border-radius:12px;padding:12px;margin-top:6px;}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:8px 0;}
+  .stat{background:#f8fafc;border:1px solid var(--line);border-radius:12px;padding:10px 12px;text-align:center;}
+  .stat .v{font-size:20px;font-weight:800;} .stat .l{font-size:13px;color:var(--muted);}
+  @media(min-width:640px){ body{font-size:19px;} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <h1>寶成工業（9904）每日營運追蹤報告</h1>
+  <div class="sub">全球最大運動/休閒鞋製造商 · 全球最大運動鞋 OEM/ODM（Nike、adidas、ASICS、New Balance、Salomon、Timberland）</div>
+  <div class="meta">
+    <b>報告日期：</b>2026/10/31（六）<br>
+    <b>最新交易日：</b>2026/10/30（五）收盤<br>
+    <b>追蹤視窗：</b>最近 24 小時（10/30）為主 + 最近 7 日（10/24–10/31）背景<br>
+    <b>貨幣原則：</b>寶成=新臺幣 · 裕元=美金 · 寶勝=人民幣（三者會計口徑不同，不直接混用）
+  </div>
+</header>
+
+<!-- ============ A. 今日重點摘要 ============ -->
+<div class="card">
+  <h2><span class="num">A</span>今日重點摘要</h2>
+  <p class="small">說明：以下為 10/24–10/31 視窗內最具決策意義的 4 項變化；10/30（週五）為最後一個交易日，「24 小時內」實質新訊息有限，故以近 7 日可靠事件補足。</p>
+
+  <div class="news">
+    <h4>① 裕元工業 10/26 發布盈利預警：前三季歸母公司淨利預期年減 50–55%</h4>
+    <div class="badge down">利空</div><div class="badge unk">短期/中期</div>
+    <div class="kv"><span><b>期間：</b>2026 前三季</span><span><b>性質：</b>公司正式公告（HKEX 10/26）</span></div>
+    <p><b>關鍵數據：</b>裕元前三季歸母公司淨利預期較去年同期 <b>USD 2.79 億</b>（約 NT$8.9 億）減少約 50–55%。主因：需求疲弱使製造業務營收年減 3.8%、平均用工人數大增 + 各地薪資上漲 + 加班/無效成本節降未達預期 + 關稅分攤，拖累製造毛利率。正式財報預計 <b>2026/11/12</b> 公布。</p>
+    <p><b>對寶成：</b>裕元是寶成持股 51.36% 的核心製造子公司，寶成合併前三季獲利將受顯著拖累（媒體稱裕元對寶成獲利貢獻「近五成」，此口徑須以 11/12 正式財報及持股換算再確認）。</p>
+    <div class="src">來源：裕元 HKEX 公告 2026/10/26；經濟時報/自由時報/財訊 10/26–10/27 報導。<a href="https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1026/2026102600264.pdf" target="_blank">裕元盈利預警原文(PDF)</a></div>
+  </div>
+
+  <div class="news">
+    <h4>② adidas Q3 2026 創紀錄財報（10/29）：上調全年利潤展望</h4>
+    <div class="badge up">利多</div><div class="badge unk">中期 · 需確認訂單轉換</div>
+    <div class="kv"><span><b>期間：</b>2026 Q3（7–9月）</span><span><b>性質：</b>品牌官方財報（adidas 10/29）</span></div>
+    <p><b>關鍵數據：</b>營收 <b>€7,252M</b>（+9%，創季紀錄）；毛利率 54.3%（+2.5pp，含美國關稅退款約 €200M）；營業利益 <b>€1,008M</b>（+37%，歷史新高）；全年展望上調至營業利益約 €2.5B。DTC 銷售 +17%、鞋類 wholesale 持平（保守下單）。</p>
+    <p><b>對寶成（需謹慎）：</b>adidas 是寶成主要客戶之一，但 <b>品牌整體業績 ≠ 寶成訂單</b>。本季 adidas 鞋類 wholesale 走平、DTC 強於通路，代表對代工廠的進貨未必同步放大；關稅退款讓 adidas 毛利改善，可能改善其对供應商議價/付款態度。真正訂單轉化需看 11/12 裕元/寶成財報及 Q4 拉貨。</p>
+    <div class="src">來源：<a href="https://www.adidas-group.com/en/media/press-releases/adidas-achieves-record-results-in-the-third-quarter-of-2026-and-increases-full-year-profit-outlook" target="_blank">adidas 官方新聞稿 10/29</a>；WSJ 10/29。</div>
+  </div>
+
+  <div class="news">
+    <h4>③ 匯率：美元兌新台 10 月明顯貶值，10/30 收 32.478（月底 vs 9月 +1.9%）</h4>
+    <div class="badge mix">多空並存</div><div class="badge unk">短期</div>
+    <div class="kv"><span><b>期間：</b>2026/10/30 收盤</span><span><b>性質：</b>央行/ Taipei FX 官方統計</span></div>
+    <p><b>關鍵數據：</b>USD/TWD 由 9/30 的 31.852 升至 10/30 的 <b>32.478</b>（約 +2.0%）；10 月央行月平均尚未公布（9月平均 31.716)。</p>
+    <p><b>對寶成：</b>寶成製造業務以美元計價、成本部分本幣，台幣貶值對 USD 營收換算 NBT 有正向影響；但裕元製造利潤本就以 USD 計價，匯對裕元本币損益影響較小。<b>不可簡化為「台幣貶=絕對利多」</b>——需考量實際交易幣別、避險與成本結構。</p>
+    <div class="src">來源：中央社 10/30；央行台北外匯銀行間收盤匯率。<a href="https://www.cbc.gov.tw/tw/lp-645-1-1-40.html" target="_blank">央行匯率</a></div>
+  </div>
+
+  <div class="news">
+    <h4>④ 籌碼：10/30 外資買超 +9,864 張、投信賣超 -1,622 張，收盤 25.80（+0.58%）</h4>
+    <div class="badge unk">中性</div><div class="badge unk">短期</div>
+    <div class="kv"><span><b>期間：</b>2026/10/30</span><span><b>性質：</b>交易所公開數據（via FinLab 夜間）</span></div>
+    <p><b>關鍵數據：</b>收盤 <b>NT$25.80</b>（+0.58%），約成交 1,688 萬股；本益比 5.48、股價淨值比 0.4、現金殖利率約 5.0%；52 週區間 23.30–32.40。</p>
+    <p><b>對寶成：</b>估值仍居歷史極低位（P/E 約 2013 以來第 1–5 百分位），但裕元盈利預警使市場需消化前三季度獲利下滑風險。法人近期整體偏買（外資接籌碼），屬籌碼面偏多訊號，非基本面。</p>
+    <div class="src">來源：Google 財經 / FinLab（更新至 10/30 夜間）；富邦證券。</div>
+  </div>
+</div>
+
+<!-- ============ B. 七大專題 ============ -->
+<div class="card">
+  <h2><span class="num">B</span>七大專題追蹤</h2>
+
+  <h3>1. 寶成營收、財報與公司營運</h3>
+  <div class="kv"><span><b>最新變化：</b>9月自結 213.96 億（+10.4%），近 4 月高點</span><span><b>數據比較：</b>1–9月累計 1,876.71 億（-0.5%）</span></div>
+  <p><b>原因分析：</b>Q4 進入拉貨旺季，9 月恢復年月雙增；累計年減幅收斂（去年同期基期高）。前三季正式財報尚未公布（通常下旬），獲利面將受裕元預警壓抑。</p>
+  <p><b>對寶成：</b>營收端 9 月單月轉強是正面訊號，但「營收成長 ≠ 獲利成長」——前三季淨利預期受裕元製造毛利拖累。</p>
+  <p><b>方向：</b><span class="badge mix">多空並存</span>（營收短期利多 vs 獲利中期承壓）｜<b>資料：</b>2026/10/12 公司自結、工商/中央社。<a href="https://www.ctee.com.tw/news/20261012702001-430503" target="_blank">工商時報</a></p>
+
+  <h3>2. 國際運動品牌客戶與訂單需求</h3>
+  <div class="kv"><span><b>最新變化：</b>adidas Q3 創紀錄、上調展望；Nike 無近 7 日新公告</span></div>
+  <p><b>adidas（主要客戶）：</b>Q3 營收 €7,252M +9%、鞋類 wholesale 走平（歐洲保守下單）、DTC +17%。品牌業績強，但對代工 OEM 下單保守 → 對寶成出貨量轉化「需證實」。</p>
+  <p><b>Nike：</b>最新可查驗為 FY2026 全年（2025/5–2026/4，2026/5 公布）全年營收 $46,398M 約持平（currency-neutral -2%）；FY26 Q3（2025/11–2026/1）$11,279M YoY 0%。Nike 曾表將自經典鞋款主動縮減逾 $4B 營收。近 7 日無新財報；下次 FY2027 Q1 約 11 月中（待公告）。</p>
+  <p><b>原因分析：</b>品牌端「DTC 強、wholesale 審慎」是 2026 主導形態——終端 sell-through 健康但對供應商下單保守，加上短交期訂單增加、下單策略審慎。</p>
+  <p><b>對寶成：</b>品牌整體成長 <b>不能直接認定</b>寶成訂單增加；須看裕元/寶成 Q3 製造營收與 Q4 拉貨。方向：<span class="badge unk">影響不明（品牌強 vs 代工訂單未必同步）</span>｜<b>資料：</b>adidas 10/29、Nike IR（FY26 5 月）。</p>
+
+  <h3>3. 製鞋產業景氣、供需與競爭環境</h3>
+  <div class="kv"><span><b>最新變化：</b>9月同業數據出爐</span><span><b>數據比較：</b>與去年同期</span></div>
+  <p><b>同業比較（9月，公司自結，口徑各異不得直接相加）：</b>
+  <ul>
+    <li>寶成 9904：213.96 億（YoY +10.4%）</li>
+    <li>豐泰 9910：64.40 億（YoY -4.76%）</li>
+    <li>鈺齊 9802：15.98 億（MoM -5.7%、YoY <span class="pos">+72%</span>）</li>
+    <li>來億 5607：28.86 億（YoY +13.9%）</li>
+  </ul></p>
+  <p><b>原因分析：</b>法人大致判斷 Q4 傳統拉貨旺季、出貨量與產能利用率逐步增溫。但「單一新聞不可推論整體復甦」——同業方向不一致（鈺齊高增、豐泰微跌）代表訂單在供應商間重新分配，非產業整體均漲。</p>
+  <p><b>方向：</b><span class="badge unk">影響不明 / 中性偏多</span>（旺季季節性 vs 品牌審慎下單）｜<b>資料：</b>2026-10-12/10-08 各社自結、中央社。</p>
+
+  <h3>4. 裕元工業、寶勝國際及重要轉投資</h3>
+  <div class="kv"><span><b>最新變化：</b>裕元盈利預警；寶勝 1–9月營收 -3.9%</span></div>
+  <p><b>裕元（寶成持股 51.36%）：</b>9月 USD 6.69 億（YoY +5.6%）、製鞋 +6.6%；1–9月 USD 58.89 億（YoY -2.1%）、製鞋 -3.8%。前三季歸母公司淨利預期 <b>YoY -50–55%</b>（去年同期 USD 278.7M）。正式財報 11/12。中期股息 HK$641.8M 已於 10/9 除息。</p>
+  <p><b>寶勝（中國運動用品零售商，裕元分拆）：</b>9月 RMB 13.15 億（YoY -2.5%）、1–9月 RMB 124.03 億（YoY -3.9%），主因終端需求波動。H1 歸母淨利各媒體數字略有出入（智通 RMB 2.44 億 / moomoo 約 RMB 2.54 億）<b>— 來源矛盾，須以公司財報為準</b>。</p>
+  <p><b>重要原則：</b>不可把裕元/寶勝全部營收當成寶成自身營收；寶成按持股比例權益認列。裕元、寶勝個別財報 vs 寶成合併財報不同。</p>
+  <p><b>方向：</b><span class="badge down">利空（裕元）</span><span class="badge down">利空/承壓（寶勝）</span>｜<b>資料：</b>裕元 HKEX 10/26 預警、9/12 月營收；寶勝 10月 HKEX。<a href="https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1012/2026101200384.pdf" target="_blank">裕元 9月月營收</a></p>
+
+  <h3>5. 海外生產基地、勞動成本與供應鏈</h3>
+  <div class="kv"><span><b>最新變化：</b>關稅退款與生產地成本結構</span></div>
+  <p><b>關稅（已正式實施/可查驗）：</b>越南產鞋輸入美國 2026 有效關稅約 25%（MFN 12.5% + Section 301 強迫勞動 12.5%）。美國最高法院 2026/2/20 推翻 2025 IEEPA 關稅，開啟約 $166B 退款池；adidas 本季已收到大部分關稅退款 €200M（屬一次性、改善品牌毛利，非直接轉付代工廠）。</p>
+  <p><b>生產成本（裕元說明）：</b>前三季度各地薪資上漲、平均用工人數增加、加班/無效成本節降未達預期 → 推高人工與製費。三大生產基地上半年長假重疊 + 訂單波動 → 生產排程與資源配置承壓。</p>
+  <p><b>方向：</b><span class="badge down">利空（成本結構）</span>，關稅退款對品牌端屬利多但不自動轉為代工廠獲利｜<b>資料：</b>裕元盈利預警原文、tariffstool/HTS 10/23 校驗。</p>
+
+  <h3>6. 匯率、原物料、運費與總體經濟</h3>
+  <div class="kv"><span><b>最新變化：</b>10/30 USD/TWD 32.478</span><span><b>數據比較：</b>9月底 31.852、10月趨勢 31.84→32.61</span></div>
+  <p><b>匯率：</b>10 月台幣貶值約 +2%。寶成製造 USD 計價營收換算 NBT 獲益；裕元以 USD 計價，匯率對裕元本幣損益影響較小。原物料（橡膠/合成料/鞋材）本季無可靠官方統計更新可查，暫不估算占比。<b>不可簡化為「台幣貶=絕對利多」</b>。</p>
+  <p><b>總體：</b>寶成 10/12 說明全球政經複雜、關稅/能源/通膨不確定、供應鏈重塑、消費審慎。方向：<span class="badge mix">多空並存</span>｜<b>資料：</b>央行匯率、中央社 10/30。</p>
+
+  <h3>7. 股價、法人動向與 market 評價</h3>
+  <div class="grid">
+    <div class="stat"><div class="v">25.80</div><div class="l">10/30 收盤 (+0.58%)</div></div>
+    <div class="stat"><div class="v">5.48</div><div class="l">本益比 P/E</div></div>
+    <div class="stat"><div class="v">0.40</div><div class="l">股價淨值比 P/B</div></div>
+    <div class="stat"><div class="v">~5.0%</div><div class="l">現金殖利率</div></div>
+  </div>
+  <p><b>籌碼（10/30）：</b>外資 +9,864 張、投信 -1,622 張、自營商 +630 張；外資持股約 28.3%（834,018 張，10/16 基準）。10/27 富邦：外資 +943、投信 -76。</p>
+  <p><b>獲利：</b>2026 Q1 EPS 0.76、Q2 1.61、H1 累計 2.37；2025 全年 4.10。前三季正式 EPS 待 11 月公布，預期受裕元預警下修。</p>
+  <p><b>評價：</b>P/E 約 5.5 倍為自身極低位；<b>但低估值 ≠ 必漲</b>——需獲利品質（前三季下滑）與成長前景驗證。法人近期偏接籌碼屬籌碼面利多。方向：<span class="badge unk">中性</span>｜<b>資料：</b>Google 財經 / FinLab（10/30）。</p>
+</div>
+
+<!-- ============ C. 數據追蹤表 ============ -->
+<div class="card">
+  <h2><span class="num">C</span>寶成營運數據追蹤表</h2>
+  <table>
+    <thead><tr><th>指標</th><th>期間</th><th>數值</th><th>比較基準</th><th>變化</th><th>來源/日期</th></tr></thead>
+    <tbody>
+      <tr><td>寶成月營收</td><td>2026/09</td><td class="num">NT$213.96 億</td><td>去年同期</td><td class="pos">+10.4%</td><td>公司自結 10/12</td></tr>
+      <tr><td>寶成累計營收</td><td>2026 1–9月</td><td class="num">NT$1,876.71 億</td><td>去年同期</td><td class="neg">-0.5%</td><td>公司自結 10/12</td></tr>
+      <tr><td>寶成毛利率</td><td>2026 Q2</td><td class="num">20.04%</td><td>單季</td><td>—</td><td>nStock</td></tr>
+      <tr><td>寶成營益率</td><td>2026 Q2</td><td class="num">1.35%</td><td>單季</td><td>—</td><td>nStock</td></tr>
+      <tr><td>寶成 H1 EPS</td><td>2026 Q1–Q2</td><td class="num">2.37 元</td><td>累計</td><td>—</td><td>nStock/Q2 財報</td></tr>
+      <tr><td>裕元月營收</td><td>2026/09</td><td class="num">USD 6.69 億</td><td>去年同期</td><td class="pos">+5.6%</td><td>HKEX 10/12</td></tr>
+      <tr><td>裕元製鞋累計</td><td>2026 1–9月</td><td class="num">-3.8%（製造）</td><td>去年同期</td><td class="neg">-3.8%</td><td>HKEX 10/12</td></tr>
+      <tr><td>裕元 9M 淨利預警</td><td>2026 1–9月</td><td class="num">YoY -50~-55%</td><td>去年 USD 278.7M</td><td class="neg">預警</td><td>HKEX 10/26</td></tr>
+      <tr><td>寶勝月營收</td><td>2026/09</td><td class="num">RMB 13.15 億</td><td>去年同期</td><td class="neg">-2.5%</td><td>寶勝 HKEX 10</td></tr>
+      <tr><td>寶勝累計營收</td><td>2026 1–9月</td><td class="num">RMB 124.03 億</td><td>去年同期</td><td class="neg">-3.9%</td><td>寶勝 HKEX 10</td></tr>
+      <tr><td>Nike 全年營收</td><td>FY2026（25/5–26/4）</td><td class="num">USD 46,398M</td><td>去年</td><td>≈0%</td><td>Nike IR 2026/5</td></tr>
+      <tr><td>adidas Q3 營收</td><td>2026 Q3</td><td class="num">€7,252M</td><td>去年</td><td class="pos">+9%</td><td>adidas 10/29</td></tr>
+      <tr><td>USD / 新台</td><td>2026/10/30 收盤</td><td class="num">32.478</td><td>9月底 31.852</td><td class="pos">+1.96%</td><td>中央社/央行</td></tr>
+      <tr><td>寶成收盤價</td><td>2026/10/30</td><td class="num">NT$25.80</td><td>漲跌</td><td class="pos">+0.58%</td><td>Google 財經</td></tr>
+      <tr><td>外資買賣超</td><td>2026/10/30</td><td class="num">+9,864 張</td><td>當日</td><td>買超</td><td>FinLab 夜間</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 不同公司幣別與會計期間不同（寶成 NT$ / 裕元 USD / 寶勝 RMB），不得直接混用加總。寶成前三季正式財報尚未公布（通常 11 月下旬），上表相關獲利項為季報已有值，非全年。</p>
+</div>
+
+<!-- ============ D. 利多/利空/不確定 ============ -->
+<div class="card">
+  <h2><span class="num">D</span>利多・利空・不確定因素總整理</h2>
+
+  <div class="box b-up">
+    <b>✔ 利多因素</b>
+    <ul>
+      <li><b>9月營收站 4 月高點、年月雙增</b>（213.96 億 +10.4%）→ 出貨與產能利用率回升；Q4 旺季拉貨。證據：公司自結 10/12。後續觀察：10–12 月月營收。</li>
+      <li><b>adidas 業績強、上調全年利潤展望</b>→ 主要客戶需求與獲利健康，終端 sell-through 改善。證據：adidas 10/29 官方。風險：wholesale 保守→代工訂單轉化未證實。</li>
+      <li><b>低估值 + 高現金股利</b>（P/E≈5.5、P/B 0.4、殖利率約 5%、外資買超）→ 籌碼面與估值面支撐。證據：10/30 行情。限制：低價 ≠ 必漲，前三季獲利下滑未反映。</li>
+      <li><b>台幣 10 月貶值 + 關稅退款池開啟</b>→ 美元營收換算 NBT 增益；adidas 收關稅退款 €200M 改善品牌端。證據：央行 10/30、HS 10/23。</li>
+    </ul>
+  </div>
+
+  <div class="box b-down">
+    <b>✘ 利空因素</b>
+    <ul>
+      <li><b>裕元盈利預警：9M 歸母公司淨利 YoY -50~55%</b>→ 寶成合併前三季獲利顯著受壓。證據：HKEX 10/26。後續觀察：11/12 裕元正式財報、11月寶成財報。</li>
+      <li><b>製造成本結構惡化</b>（人工↑、用工人數↑、加班/無效成本節降未達預期、關稅分攤）→ 裕元製造毛利率承壓，Q3 改善不足以抵銷規模減小。證據：裕元預警說明。</li>
+      <li><b>終端需求仍審慎、品牌 conservative 下單</b>（短交期訂單↑、下單策略審慎）→ 需求波動加劇，代工營收 1–9月製造 -3.8%。證據：裕元預警。</li>
+      <li><b>中國零售疲弱（寶勝）</b>：1–9月 RMB 124.03 億 -3.9%、同店銷售低/雙位數下滑 → 零售端獲利承壓。證據：寶勝 HKEX、媒體。</li>
+    </ul>
+  </div>
+
+  <div class="box b-unk">
+    <b>? 不確定因素</b>
+    <ul>
+      <li><b>品牌業績強 ≠ 寶成訂單增加</b>：adidas DTC 強/wholesale 平，實際出貨轉化未證實。方向取決於 Q4 拉貨與 11/12 裕元財報出貨量。</li>
+      <li><b>裕元→寶成 換算口徑</b>：媒體稱裕元對寶成獲利「近五成」，但未經正式財報核實；裕元獨立 USD 278.7M 與寶成 NT$120.68 億 2025 淨利數字間需持股換算釐清。來源矛盾，留待 11 月財報。</li>
+      <li><b>關稅退款是否轉付代工廠</b>：adidas 收到 €200M 屬品牌端一次性利多，是否反映為寶成/裕元代工單價或成本改善，無公司證實。</li>
+      <li><b>匯率與原物料占比</b>：缺可靠統計證明各成本占比，不自行估算精準損益。</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ============ E. 未來觀察清單 ============ -->
+<div class="card">
+  <h2><span class="num">E</span>未來 1–3 個月觀察清單</h2>
+  <table>
+    <thead><tr><th>事件</th><th>狀態</th><th>為何重要</th></tr></thead>
+    <tbody>
+      <tr><td><b>裕元工業 2026 Q3 正式財報</b></td><td>預計 <b>2026/11/12</b></td><td>盈利預警落地、製造毛利率、Q4 展望，直接影響寶成前三季獲利</td></tr>
+      <tr><td>寶成 2026 Q3 月營收</td><td>10 月營收約 11/10 前公布</td><td>Q4 旺季拉貨是否延續 9 月雙增</td></tr>
+      <tr><td>寶成 2026 Q3 法說會/正式財報</td><td>11 月下旬（待公告）</td><td>前三季合併淨利、毛利率、Q4 指引、股利</td></tr>
+      <tr><td>Nike FY2027 Q1 財報</td><td>約 2026/11 月中（待公告）</td><td>最大客戶訂單/庫存/北美鞋類需求</td></tr>
+      <tr><td>adidas Q4 2026 / 全年財報</td><td>2027 Q1 初</td><td>全年上調落實、Q4 高個位成長實現否</td></tr>
+      <tr><td>寶勝國際 9M/全年業績</td><td>2026 Q4</td><td>中國零售同店銷售、獲利</td></tr>
+      <tr><td>美國關稅政策/IEEPA 退款執行</td><td>持續</td><td>越南 25% 有效關稅、退款池對成本結構影響</td></tr>
+    </tbody>
+  </table>
+  <p class="small">註：除裕元 11/12 為公司公告確定期外，其餘多为慣例月份，實際以各公司/交易所公布為準，不得視為確定日期。</p>
+</div>
+
+<!-- ============ 整體結論 ============ -->
+<div class="concl">
+  <h2>整體結論</h2>
+  <div class="row"><span class="k">營運方向</span><span>持平偏改善（9月出貨回升、Q4 旺季，但前三季受需求與成本拖累）。<b>證據：營收 vs 成本兩面。</b></span></div>
+  <div class="row"><span class="k">獲利方向</span><span><b>惡化（前三季）</b>——裕元盈利預警 YoY -50~55% 為核心拖累，待 11 月財報確認寶成合併數字。</span></div>
+  <div class="row"><span class="k">主要利多</span><span>9月營收雙增 + adidas 業績強/上調展望 + 低估值高息 + 台幣貶值/關稅退款。</span></div>
+  <div class="row"><span class="k">主要利空</span><span>裕元獲利預警、製造人工製費成本上升、品牌審慎下單、中國零售疲弱。</span></div>
+  <div class="row"><span class="k">最大不確定性</span><span>adidas 等品牌業績強 <b>能否轉化為寶成/裕元實際訂單與出貨增長</b>（wholesale 保守、DTC 強），以及裕元→寶成 獲利換算口徑。</span></div>
+  <div class="row"><span class="k">下次優先追蹤</span><span>① 裕元 11/12 Q3 財報；② 寶成 10 月營收（Q4 拉貨）；③ Nike FY27 Q1 訂單/庫存訊號。</span></div>
+  <div class="row"><span class="k">整體判斷</span><span><b>多空並存</b> — 營收/籌碼面偏多，但前三季獲利下滑明確（裕元預警），基本面改善需 Q4 與 11 月財報驗證。本結論不預測股價漲跌，僅基於可查證數據之基本面追蹤。</span></div>
+</div>
+
+<!-- ============ 資料限制 ============ -->
+<div class="card">
+  <h2>資料品質與限制聲明</h2>
+  <div class="disc">
+  1. <b>寶成正式前三季財報尚未公布</b>（通常 11 月下旬），上表寶成獲利項為 2026 Q2 及 H1 既有值，非前三季度。<br>
+  2. 裕元 9M 淨利為<b>預警（-50~55%）</b>，正式數字以 11/12 財報為準；寶勝 H1 歸母淨利各來源有出入（RMB 2.44 億 vs 約 2.54 億），以公司財報為準。<br>
+  3. Nike 最新為 FY2026 全年（2026/5 公布）；Nike 財年與日曆年錯位，近 7 日無 Nike 新財報。<br>
+  4. 匯率為央行/台北外匯 10/30 收盤；原物料（橡膠/合成料/鞋材）無可靠官方統計更新，未估算占比。<br>
+  5. 品牌整體業績 <b>不等於</b> 寶成訂單；裕元/寶勝個別營收 <b>不等於</b> 寶成自身營收。<br>
+  6. 收盤價、法人買賣超截至 2026/10/30（週五）；10/31 為週六非交易日。<br>
+  7. 本報告為營運追蹤紀錄，非投資建議；所有數據附來源可查驗。
+  </div>
+</div>
+
+<p class="small" style="text-align:center;padding:8px 0;color:#94a3b8;">
+  報告生成：2026/10/31 · 寶成工業（9904）每日追蹤專題<br>
+  主要來源：裕元 HKEX 公告、adidas 官方新聞稿、Nike IR、中央社、工商時報、自由財經、央行匯率、Google 財經
+</p>
+
+</div>
+</body>
+</html>
